@@ -26,7 +26,7 @@ public class Consumer {
         String offerid = (String) jsonObject.get("offerid");
         String userPhone = (String) jsonObject.get("userPhone");
         
-        String Log="Customer masters CRM has being updated for you.This will allow us for scale this accross channels";
+        String Log="Customer master CRM has being updated for you.This will allow us for scale this accross channels";
         Log=" "+Log+""+"User: "+userName+" "+"User account: "+userAccId+" "+"Phone: "+userPhone+" "+"Offer activated: "+offerid;
         
          System.out.println(Log);
